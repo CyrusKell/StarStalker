@@ -71,7 +71,6 @@ function drawStars() {
     if(activeStars.length > renderNum) activeStars.sort(function(a, b){return a.dist - b.dist});
     for(let i = 0; i < activeStars.length; i++) {
         const star = activeStars[i];
-        // if(star.dist >= 99999) continue;
         if(i <= renderNum) activeStarsDetailed.push(star);
         else activeStarsLowDetail.push(star);
     }
