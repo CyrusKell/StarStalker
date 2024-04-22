@@ -221,6 +221,7 @@ function displayStarData(data) {
         document.getElementById("constellation").innerText = "";
         document.getElementById("spectral-type").innerText = "";
         document.getElementById("distance").innerText = "";
+        document.getElementById("xyz").innerText = "";
         document.getElementById("radial-velocity").innerText = "";
         document.getElementById("absolute-magnitude").innerText = "";
         document.getElementById("visual-magnitude").innerText = "";
